@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
   //when player wins
   else if (guess === number) {
     displayMessage('🎉 correct number');
-    document.querySelector('body').setAttribute('style', 'background:#e63946');
+    document.querySelector('body').setAttribute('style', 'background:#f5cac3');
     document.querySelector('.number').setAttribute('style', 'width: 250px');
     document.querySelector('.number').textContent = number;
 
